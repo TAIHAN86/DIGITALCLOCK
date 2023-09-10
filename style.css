@@ -1,4 +1,20 @@
 .clock{
 
-    background: rgb(29, 26, 26);
+    background: rgb(41, 32, 32);
+    width: 280px;
+    padding: 10px;
+    text-align:center;
+    border-radius: 10px;
+}
+
+.clock-time,
+.clock-ampm {
+    font-family:  sans-serif;
+    font-size: 30px;
+    color:aliceblue;
+
+}
+
+.clock{
+    font: size 48px;
 }
