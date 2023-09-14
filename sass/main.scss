@@ -1,0 +1,56 @@
+/* main.scss */
+
+// Variables
+$primary-color: #007bff;
+$secondary-color: #333;
+
+// Styles
+body {
+    font-family: Arial, sans-serif;
+    background-color: $secondary-color;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: $primary-color;
+    padding: 20px;
+
+    ul {
+        list-style: none;
+        display: flex;
+        li {
+            margin-right: 20px;
+            a {
+                text-decoration: none;
+                color: white;
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+    }
+}
+
+section {
+    padding: 40px;
+    text-align: center;
+
+    h1, h2 {
+        color: $primary-color;
+    }
+
+    a.cta-button {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 10px 20px;
+        background-color: $primary-color;
+        color: white;
+        text-decoration: none;
+        border-radius: 5px;
+        &:hover {
+            background-color: darken($primary-color, 10%);
+        }
+    }
+}
