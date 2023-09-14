@@ -2,14 +2,16 @@
 body {
   font-family: Arial, sans-serif;
   background-color: #e632f3;
-  color: rgb(12, 13, 13);
+  color: rgb(221, 8, 108);
   margin: 0;
   padding: 0;
 }
 
 header {
-  background-color: #0ad0e2;
+  background-color: #0ad9f4;
   padding: 60px;
+  text-align: center;
+  margin-top: 80px;
 }
 header ul {
   list-style: none;
@@ -62,7 +64,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #56aaff;
+  background-color: #07f1f1;
   padding: 15px 0;
   position: relative;
   overflow: hidden;
