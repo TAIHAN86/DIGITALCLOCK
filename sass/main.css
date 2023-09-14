@@ -1,14 +1,14 @@
 /* main.scss */
 body {
   font-family: Arial, sans-serif;
-  background-color: #333;
-  color: white;
+  background-color: #e632f3;
+  color: rgb(12, 13, 13);
   margin: 0;
   padding: 0;
 }
 
 header {
-  background-color: #007bff;
+  background-color: #0ad0e2;
   padding: 20px;
 }
 header ul {
@@ -20,7 +20,7 @@ header ul li {
 }
 header ul li a {
   text-decoration: none;
-  color: white;
+  color: rgb(10, 240, 190);
 }
 header ul li a:hover {
   text-decoration: underline;
@@ -31,17 +31,17 @@ section {
   text-align: center;
 }
 section h1, section h2 {
-  color: #007bff;
+  color: #0ad0e2;
 }
 section a.cta-button {
   display: inline-block;
   margin-top: 20px;
   padding: 10px 20px;
-  background-color: #007bff;
+  background-color: #0ad0e2;
   color: white;
   text-decoration: none;
   border-radius: 5px;
 }
 section a.cta-button:hover {
-  background-color: #0062cc;
+  background-color: #08a3b1;
 }/*# sourceMappingURL=main.css.map */

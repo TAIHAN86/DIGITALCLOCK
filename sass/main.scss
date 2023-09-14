@@ -1,14 +1,14 @@
 /* main.scss */
 
 // Variables
-$primary-color: #007bff;
-$secondary-color: #333;
+$primary-color: #0ad0e2;
+$secondary-color: #e632f3;
 
 // Styles
 body {
     font-family: Arial, sans-serif;
     background-color: $secondary-color;
-    color: white;
+    color: rgb(12, 13, 13);
     margin: 0;
     padding: 0;
 }
@@ -24,7 +24,7 @@ header {
             margin-right: 20px;
             a {
                 text-decoration: none;
-                color: white;
+                color: rgb(10, 240, 190);
                 &:hover {
                     text-decoration: underline;
                 }
@@ -54,3 +54,11 @@ section {
         }
     }
 }
+
+
+
+
+
+
+
+
